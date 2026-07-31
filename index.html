@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | N7 Marketing</title>
+<link rel="stylesheet" href="./_ds/classical-64070505-8539-4eda-b941-bf1b215d6e6f/styles.css">
+<style>
+body{margin:0}
+a{color:var(--color-accent-700);text-decoration:none}
+a:hover{color:var(--color-accent)}
+.btn{cursor:pointer;transition:transform .2s ease,background-color .2s ease,color .2s ease,border-color .2s ease}
+.btn:hover{transform:scale(1.05)}
+.btn-primary:hover{background-color:transparent;color:var(--color-accent);border-color:var(--color-accent)}
+.btn-primary[data-fill]:hover{background-color:color-mix(in srgb, var(--color-accent) 12%, transparent);color:inherit}
+.card{transition:transform .3s ease,background-color .3s ease}
+.card:hover{transform:scale(1.03);background-color:color-mix(in srgb, var(--color-accent) 12%, transparent)}
+.bio-card{border-radius:12px;padding:var(--space-4);transition:transform .3s ease,background-color .3s ease}
+.bio-card:hover{transform:scale(1.03);background-color:color-mix(in srgb, var(--color-accent) 12%, transparent)}
+.stage-card:hover{transform:scale(1.06)}
+.stage-card{transition:transform .3s ease}
+.tag-hover:hover{background-color:color-mix(in srgb, var(--color-accent) 18%, transparent) !important}
+.logo-hover{transition:transform .25s ease}
+.logo-hover:hover{transform:scale(1.12)}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@keyframes archFloat{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-14px) rotate(1.5deg)}}
+@keyframes blobDrift{0%,100%{transform:translate(-50%,-50%) scale(1) rotate(0deg)}50%{transform:translate(-50%,-50%) scale(1.12) rotate(4deg)}}
+
+@font-face{font-family:'Optima';src:url('./fonts/Optima-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Optima';src:url('./fonts/Optima-Italic.ttf') format('truetype');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:'Optima';src:url('./fonts/Optima-Medium.ttf') format('truetype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'Optima';src:url('./fonts/Optima-Bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap}
+:root{--font-heading:'Optima', 'Cormorant Garamond', serif}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-Light.otf') format('opentype');font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-LightItalic.otf') format('opentype');font-weight:300;font-style:italic;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-Regular.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-RegularItalic.otf') format('opentype');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-Medium.otf') format('opentype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-MediumItalic.otf') format('opentype');font-weight:500;font-style:italic;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-Bold.otf') format('opentype');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-BoldItalic.otf') format('opentype');font-weight:700;font-style:italic;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-Black.otf') format('opentype');font-weight:900;font-style:normal;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-BlackItalic.otf') format('opentype');font-weight:900;font-style:italic;font-display:swap}
+:root{--font-body:'GT America', 'Lora', serif}
+</style>
+</head>
+<body>
+<nav class="nav" style="padding-inline:clamp(20px,5vw,72px)">
+  <span class="nav-brand">N7</span>
+  <a href="./index.html" aria-current="page">Home</a>
+  <a href="./About.html">About</a>
+  <a href="./Services.html">Services</a>
+  <a href="./Testimonials.html">Success Stories</a>
+  <a href="./Resources.html">Resources</a>
+  <a href="./GetStarted.html" class="btn btn-primary" data-fill style="background:var(--color-accent);color:white">Get Started</a>
+</nav>
+
+<section style="max-width:1200px;margin:0 auto;padding:calc(3*var(--space-8)) clamp(20px,5vw,72px) var(--space-8)">
+  <h1 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(22px,3.6vw,48px);line-height:1.15;letter-spacing:-0.01em;margin:0 0 var(--space-6)">Because you can&rsquo;t do <em style="font-style:normal;font-weight:600;color:color-mix(in oklch, #a0bf64 55%, black)">all this</em> alone.</h1>
+  <p style="font-family:var(--font-body);font-size:17px;line-height:1.6;max-width:60ch;color:color-mix(in srgb, var(--color-text) 78%, transparent);margin:var(--space-3) 0 var(--space-6)">From first pitch deck to churn process, we cover every piece of product, sales, and customer marketing your growing business needs.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:var(--space-2)">
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Branding</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Product Marketing</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Go To Market</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Product Launches</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Product Release Management</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Competitive Intelligence</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">CS Training</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Customer Marketing</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Sales Enablement</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Pitch Decks</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">First Call Deck</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Customer Lifecycle Management</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Closing Decks</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Churn Process</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Logo Design</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Web Design</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Content Marketing</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Alpha and Beta Product Testing</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Email Drip Campaigns</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Funnel Analysis</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">ABM Campaigns</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Pricing Strategy</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Pricing & Packaging</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Buyer Personas</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Identifying ICPs</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Customer Newsletters</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Prospect Newsletters</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Launch Roadmaps</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Messaging Frameworks</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Launch Timelines</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Product Stories</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Value Propositions</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Brand Narrative</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Style Guides</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Cross-channel Optimization</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Cross-channel Organization</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Launch Campaigns</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Paid Media Plans</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Sales Decks</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">One-Pagers</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Case Studies</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">White Papers</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Battle Cards</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Competitive Analysis</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Customer Insights</span>
+    <span class="tag tag-outline tag-hover" style="border-color:var(--color-accent);color:var(--color-accent)">Pricing Research</span>
+  </div>
+</section>
+
+<hr class="hr">
+
+<section style="max-width:1200px;margin:0 auto;padding:var(--space-8) clamp(20px,5vw,72px);display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:var(--space-8);align-items:center">
+  <img src="./uploads/ezgif.com-gif-maker.gif" alt="" style="width:100%;max-width:380px;justify-self:center;display:block;mix-blend-mode:multiply;animation:archFloat 7s ease-in-out infinite">
+  <div>
+    <h2 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(26px,3vw,34px);line-height:1.2;margin:0 0 var(--space-3)">B2B marketing services for the company that <em style="font-style:italic;color:var(--color-accent)">needs to grow</em><span style="color:var(--color-accent)">.</span></h2>
+    <p style="font-family:var(--font-body);font-size:16px;line-height:1.6;max-width:56ch;color:color-mix(in srgb, var(--color-text) 78%, transparent);margin:0 0 var(--space-4)">Brand, product, sales, and customer enablement for every part of your business plan.</p>
+    <a href="./Services.html" class="btn btn-primary">Learn More</a>
+    <a href="./GetStarted.html" class="btn btn-primary" data-fill style="margin-left:var(--space-3);background:var(--color-accent);color:white">Start Growing</a>
+  </div>
+</section>
+
+<hr class="hr">
+
+<section style="max-width:1200px;margin:0 auto;padding:var(--space-8) clamp(20px,5vw,72px);text-align:center">
+  <h2 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(28px,3.4vw,38px);line-height:1.15;margin:0 0 var(--space-6)">Trusted by brands,<br><span style="color:color-mix(in oklch, #a0bf64 55%, black)">backed by results.</span></h2>
+  <div style="display:grid;grid-template-columns:auto minmax(0,64ch) auto;gap:var(--space-5);align-items:center;justify-content:center;max-width:900px;margin:0 auto var(--space-8)">
+    <span style="font-family:var(--font-heading);font-size:96px;line-height:0.6;color:var(--color-accent);opacity:0.35" aria-hidden="true">&ldquo;</span>
+    <div>
+      <p style="font-family:var(--font-heading);font-size:clamp(19px,2.2vw,24px);font-weight:400;line-height:1.5;margin:0 0 var(--space-3)">Jennifer Thompson is an asset. In my 25+ career in leadership roles, she stands out as one of the best marketers I&rsquo;ve worked with.</p>
+      <div style="font-family:var(--font-body);font-size:14px;color:color-mix(in srgb, var(--color-text) 60%, transparent)">Bill Cormier, Track Your Advertising</div>
+    </div>
+    <span style="font-family:var(--font-heading);font-size:96px;line-height:0.6;color:color-mix(in oklch, #a0bf64 55%, black);opacity:0.35" aria-hidden="true">&rdquo;</span>
+  </div>
+  <p style="font-family:var(--font-body);font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:color-mix(in srgb, var(--color-text) 55%, transparent);margin:0 0 var(--space-5)">Trusted by teams at</p>
+  <div style="overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,black 8%,black 92%,transparent);mask-image:linear-gradient(90deg,transparent,black 8%,black 92%,transparent)">
+    <div style="display:flex;width:max-content;animation:marquee 30s linear infinite">
+      <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/Tmobile.png" alt="T-Mobile logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/pushpay.svg" alt="Pushpay logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/id6d0xtFuZ_1785431322327.svg" alt="Zenoti logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/Marchex Logo SVG.svg" alt="Marchex logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/idg_TXtNmA_1785432383148.png" alt="Highspot logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/adaptiva-seeklogo.png" alt="Adaptiva logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/Logo.svg" alt="Microsoft logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/553d63935a726d5094c0d5786b45b8875d3a1ec2-111x31.svg" alt="Amperity logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/caret-legal-transparent.png" alt="CARET Legal logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/Treez-Logo-Category.png" alt="Treez logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/Tmobile.png" alt="T-Mobile logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/pushpay.svg" alt="Pushpay logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/id6d0xtFuZ_1785431322327.svg" alt="Zenoti logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/Marchex Logo SVG.svg" alt="Marchex logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/idg_TXtNmA_1785432383148.png" alt="Highspot logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/adaptiva-seeklogo.png" alt="Adaptiva logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/Logo.svg" alt="Microsoft logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/553d63935a726d5094c0d5786b45b8875d3a1ec2-111x31.svg" alt="Amperity logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/caret-legal-transparent.png" alt="CARET Legal logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+        <div style="padding:var(--space-3) var(--space-6);display:flex;align-items:center;justify-content:center;flex:0 0 auto;width:150px;height:64px" class="logo-hover"><img src="./uploads/Treez-Logo-Category.png" alt="Treez logo" style="width:100%;height:64px;object-fit:contain;background:transparent"></div>
+    </div>
+  </div>
+  <div style="margin-top:var(--space-6)"><a href="./Testimonials.html" class="btn btn-primary">See more customer stories</a></div>
+</section>
+
+<hr class="hr">
+
+<section style="margin:0 auto;padding:var(--space-8) 0;position:relative;overflow:hidden">
+  <div style="position:absolute;top:50%;left:50%;transform:translateX(-50%);width:100vw;aspect-ratio:1/1;max-width:none;pointer-events:none;z-index:0;background:#f4dbb3;-webkit-mask:url('./uploads/Untitled-7-c05d0e30.png') center/contain no-repeat;mask:url('./uploads/Untitled-7-c05d0e30.png') center/contain no-repeat;animation:blobDrift 18s ease-in-out infinite"></div>
+  <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,72px);position:relative;z-index:1">
+  <h2 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(26px,3vw,34px);line-height:1.2;margin:0 0 var(--space-6);color:var(--color-accent)">We&rsquo;ll meet you at any stage of growth.</h2>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-6)">
+    <div class="card stage-card" style="display:flex;flex-direction:column;background:var(--color-bg)">
+      <div class="card-kicker" style="color:color-mix(in oklch, #a0bf64 50%, black)">Pre-Seed</div>
+      <div class="card-title">Just Starting Out</div>
+      <p class="card-body" style="flex:1">Two guys in a garage with a great idea? We&rsquo;ve been there. Let us take care of the marketing strategy while you focus on building your product.</p>
+      <a href="./Services.html" class="btn btn-secondary" style="margin-top:var(--space-4);color:var(--color-accent);border-color:var(--color-accent)">Start from Zero</a>
+    </div>
+    <div class="card stage-card" style="display:flex;flex-direction:column;background:var(--color-bg)">
+      <div class="card-kicker" style="color:color-mix(in oklch, #a0bf64 50%, black)">Series A</div>
+      <div class="card-title">Launched and Learning</div>
+      <p class="card-body" style="flex:1">You built a great product, you even have funding, and maybe a customer or two. Build momentum with time-tested marketing tactics to help you keep growing.</p>
+      <a href="./Services.html" class="btn btn-secondary" style="margin-top:var(--space-4);color:var(--color-accent);border-color:var(--color-accent)">Grow with Ease</a>
+    </div>
+    <div class="card stage-card" style="display:flex;flex-direction:column;background:var(--color-bg)">
+      <div class="card-kicker" style="color:color-mix(in oklch, #a0bf64 50%, black)">Series B+</div>
+      <div class="card-title">Ready for More</div>
+      <p class="card-body" style="flex:1">You have products, you have customers, now you need to professionalize. Capture the fire of your early growth and transform it into sustainable business practices.</p>
+      <a href="./Services.html" class="btn btn-secondary" style="margin-top:var(--space-4);color:var(--color-accent);border-color:var(--color-accent)">Scale Faster</a>
+    </div>
+  </div>
+  <div style="margin-top:var(--space-6)"><a href="./Services.html" class="btn btn-primary" data-fill style="background:var(--color-accent);color:white">Learn more</a></div>
+  </div>
+</section>
+
+<hr class="hr">
+
+<section style="max-width:1200px;margin:0 auto;padding:var(--space-8) clamp(20px,5vw,72px);text-align:center">
+  <div style="max-width:60ch;margin:0 auto">
+    <h2 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(26px,3vw,34px);margin:0 0 var(--space-3)">Not sure what stage you&rsquo;re at?</h2>
+    <p style="font-family:var(--font-body);font-size:16px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 78%, transparent);margin:0 0 var(--space-4)">We can work with you to determine what services are best suited to helping you reach your goals.</p>
+    <a href="./GetStarted.html" class="btn btn-primary">Explore Solutions</a>
+  </div>
+</section>
+
+<hr class="hr">
+
+<footer style="padding:var(--space-8) clamp(20px,5vw,72px) var(--space-6);background:var(--color-accent);display:flex;justify-content:space-between;flex-wrap:wrap;gap:var(--space-4);font-family:var(--font-body);font-size:13px;color:white">
+  <span>© 2026 N7 Marketing</span>
+  <div style="display:flex;gap:var(--space-4)"><a href="./About.html" style="color:white">About</a><a href="./Services.html" style="color:white">Services</a><a href="./Resources.html" style="color:white">Resources</a></div>
+  <span>info@n7-marketing.com</span>
+</footer>
+</body></html>
