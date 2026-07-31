@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get Started | N7 Marketing</title>
+<link rel="stylesheet" href="./_ds/classical-64070505-8539-4eda-b941-bf1b215d6e6f/styles.css">
+<style>
+body{margin:0}
+a{color:var(--color-accent-700);text-decoration:none}
+a:hover{color:var(--color-accent)}
+@keyframes caretBlink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@keyframes blobDrift{0%,100%{transform:translate(-50%,-50%) scale(1) rotate(0deg)}50%{transform:translate(-50%,-50%) scale(1.12) rotate(4deg)}}
+@keyframes archFloat{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-14px) rotate(1.5deg)}}
+.logo-hover{transition:transform .25s ease}
+.logo-hover:hover{transform:scale(1.12)}
+.tag-hover:hover{background-color:color-mix(in srgb, var(--color-accent) 18%, transparent) !important}
+.card-hover:hover{transform:scale(1.03) !important;background-color:color-mix(in srgb, var(--color-accent) 12%, transparent) !important}
+.stage-card:hover{transform:scale(1.06) !important}
+.services-toggle:hover, .btn:hover{transform:scale(1.05)}
+
+@font-face{font-family:'Optima';src:url('./fonts/Optima-Regular.ttf') format('truetype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Optima';src:url('./fonts/Optima-Italic.ttf') format('truetype');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:'Optima';src:url('./fonts/Optima-Medium.ttf') format('truetype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'Optima';src:url('./fonts/Optima-Bold.ttf') format('truetype');font-weight:700;font-style:normal;font-display:swap}
+:root{--font-heading:'Optima', 'Cormorant Garamond', serif}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-Light.otf') format('opentype');font-weight:300;font-style:normal;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-LightItalic.otf') format('opentype');font-weight:300;font-style:italic;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-Regular.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-RegularItalic.otf') format('opentype');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-Medium.otf') format('opentype');font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-MediumItalic.otf') format('opentype');font-weight:500;font-style:italic;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-Bold.otf') format('opentype');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-BoldItalic.otf') format('opentype');font-weight:700;font-style:italic;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-Black.otf') format('opentype');font-weight:900;font-style:normal;font-display:swap}
+@font-face{font-family:'GT America';src:url('./fonts/GTAmerica-BlackItalic.otf') format('opentype');font-weight:900;font-style:italic;font-display:swap}
+:root{--font-body:'GT America', 'Lora', serif}
+</style>
+</head>
+<body>
+<nav class="nav" style="padding-inline:clamp(20px,5vw,72px)">
+  <span class="nav-brand">N7</span>
+  <a href="./index.html">Home</a>
+  <a href="./About.html">About</a>
+  <a href="./Services.html">Services</a>
+  <a href="./Testimonials.html">Success Stories</a>
+  <a href="./Resources.html">Resources</a>
+  <a href="./GetStarted.html" class="btn btn-primary" style="background:var(--color-accent);color:white" onmouseover="this.style.background='transparent';this.style.color='var(--color-accent)';this.style.borderColor='var(--color-accent)'" onmouseout="this.style.background='var(--color-accent)';this.style.color='white';this.style.borderColor=''">Get Started</a>
+</nav>
+
+<section style="max-width:760px;margin:0 auto;padding:calc(3*var(--space-8)) clamp(20px,5vw,72px) var(--space-8)">
+  <h1 style="font-family:var(--font-heading);font-weight:400;font-size:clamp(22px,3.6vw,48px);line-height:1.15;letter-spacing:-0.01em;margin:0 0 var(--space-6)">Let&rsquo;s work together.</h1>
+  <p style="font-family:var(--font-body);font-size:17px;line-height:1.6;color:color-mix(in srgb, var(--color-text) 78%, transparent);margin:var(--space-3) 0 var(--space-6)">We&rsquo;re excited to hear about your business and where you want to take it. Tell us a bit about yourselves below, and one of our founders will be in touch.</p>
+</section>
+
+<hr class="hr">
+
+<section style="max-width:760px;margin:0 auto;padding:var(--space-8) clamp(20px,5vw,72px)">
+  <div id="gs-thankyou" class="card elev-sm" style="display:none">
+    <div class="card-title">Thank you for reaching out.</div>
+    <p class="card-body">We will be in touch with the email provided shortly. If you have any questions or concerns in the meantime, feel free to contact us directly at <a href="mailto:info@n7-marketing.com">info@n7-marketing.com</a>.</p>
+  </div>
+  <!-- NOTE FOR WORDPRESS/GITHUB PAGES: replace this <form> with your form plugin/service (e.g. Formspree, Netlify Forms, Contact Form 7) wired to the same fields to receive real submissions. -->
+  <form id="gs-form" style="display:grid;gap:var(--space-4)" onsubmit="document.getElementById('gs-form').style.display='none';document.getElementById('gs-thankyou').style.display='block';return false;">
+    <div class="field">
+      <label for="gs-name">Name*</label>
+      <input class="input" id="gs-name" name="name" required>
+    </div>
+    <div class="field">
+      <label for="gs-business">Business Name*</label>
+      <input class="input" id="gs-business" name="business" required>
+    </div>
+    <div class="field">
+      <label for="gs-email">Email*</label>
+      <input class="input" id="gs-email" name="email" type="email" required>
+    </div>
+    <div class="field">
+      <label id="gs-services-label">Which services are you interested in?* (check all that apply)</label>
+      <div style="display:grid;gap:var(--space-1)" role="group" aria-labelledby="gs-services-label">
+        <label class="radio"><input type="checkbox" name="services" value="Seed Startup"><span class="dot"></span>Seed Startup</label>
+        <label class="radio"><input type="checkbox" name="services" value="Series A"><span class="dot"></span>Series A</label>
+        <label class="radio"><input type="checkbox" name="services" value="Growth"><span class="dot"></span>Growth</label>
+        <label class="radio"><input type="checkbox" name="services" value="Audit"><span class="dot"></span>Audit</label>
+        <label class="radio"><input type="checkbox" name="services" value="Marketing Asset Audit"><span class="dot"></span>Marketing Asset Audit</label>
+        <label class="radio"><input type="checkbox" name="services" value="Other"><span class="dot"></span>Other</label>
+        <label class="radio"><input type="checkbox" name="services" value="Not Sure"><span class="dot"></span>Not Sure</label>
+      </div>
+    </div>
+    <div class="field">
+      <label for="gs-phone">Phone (optional)</label>
+      <input class="input" id="gs-phone" name="phone">
+    </div>
+    <div class="field">
+      <label for="gs-more">Tell us more about your business and your goals*</label>
+      <textarea class="input" id="gs-more" name="more" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block" style="color:var(--color-accent);border-color:var(--color-accent)">Submit</button>
+  </form>
+</section>
+
+<footer style="padding:var(--space-8) clamp(20px,5vw,72px) var(--space-6);border-top:1px solid var(--color-divider);display:flex;justify-content:space-between;flex-wrap:wrap;gap:var(--space-4);font-family:var(--font-body);font-size:13px;color:color-mix(in srgb, var(--color-text) 70%, transparent)">
+  <span>© 2026 N7 Marketing</span>
+  <div style="display:flex;gap:var(--space-4)"><a href="./index.html">Home</a><a href="./Services.html">Services</a><a href="./Resources.html">Resources</a></div>
+  <span>info@n7-marketing.com</span>
+</footer>
+</body></html>
